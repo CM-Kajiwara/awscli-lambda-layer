@@ -18,4 +18,4 @@ cd ./aws-cli-layer/ \
 cd ../
 cp ./bootstrap_skeleton ./aws-cli-layer/bootstrap
 cd ./aws-cli-layer && zip -r ./aws-cli-layer.zip .
-aws lambda publish-layer-version --layer-name aws-cli-layer --zip-file fileb://aws-cli-layer.zip --profile ${Profile}
+# aws lambda publish-layer-version --layer-name aws-cli-layer --zip-file fileb://aws-cli-layer.zip --profile ${Profile}

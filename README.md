@@ -32,11 +32,11 @@ Use AWS CLI in AWS Lambda.
     ```
     ./shell/04.delete_layer_creater.sh [AWS CLI Profile]
     ```
+1. Update lambda function code(Optional)
+    ```
+    ./shell/05.update_lambda_function.sh [LambdaFunctionName] [AWS CLI Profile]
+    ```
 1. Update lambda layer version(Optional)
     ```
-    ./shell/05.update_lambda_layer_version.sh [LambdaFunctionName] [AWS CLI Profile]
-    ```
-1. Update lambda layer code(Optional)
-    ```
-    ./shell/06.update_lambda.sh [LambdaFunctionName] [AWS CLI Profile]
+    ./shell/06.update_lambda_layer_version.sh [LambdaFunctionName] [AWS CLI Profile]
     ```
