@@ -27,7 +27,7 @@ do
 
   echo 'Zipping done! Uploading...'
 
-  aws s3 cp /tmp/provided${date}.tgz s3://cm-kajiwara-lambda-layer/provided.tgz
+  aws s3 cp /tmp/provided${date}.tgz s3://${Bucket}/provided.tgz
 
   echo 'Uploading done!'
 
